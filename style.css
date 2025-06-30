@@ -752,4 +752,21 @@ html, body {
   body {
     overflow-x: hidden;
   }
+    main .date {
+    display: block;
+    width: fit-content;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding: 0.8rem 1rem;
+    background: var(--color-light);
+    border-radius: var(--border-radius-1);
+  }
+
+  main .date input[type="date"] {
+    width: 120px;
+    padding: 0.5rem;
+    font-size: 1rem;
+    background: transparent;
+    color: var(--color-dark);
+  }
 }
